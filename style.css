@@ -7,10 +7,12 @@ html {
   font-size: 10px;
   font-family: "cairo", sans-serif;
   background: url(img/bcgrnd.png);
+  display: flex;
+  align-items: center;
 }
 section {
   width: 80%;
-  height: 100vh;
+  height: auto;
 
   background-color: #f2e1e3;
   margin: 2.4rem auto;
@@ -29,8 +31,41 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 2.4rem;
 }
 
 .logo {
   height: 9.6rem;
+}
+
+.icons {
+  font-size: 3.2rem;
+
+  list-style: none;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.icons a:link,
+.icons a:visited {
+  color: inherit;
+}
+
+.icons a:hover,
+.icons a:active {
+  color: #7e4b4c;
+}
+footer {
+  color: #5e1e1f;
+  width: auto;
+  margin: 4.2rem auto;
+  font-size: 2.4rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.disgener {
+  background-color: #5e1e1f;
+  color: #fff;
 }
