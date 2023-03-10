@@ -5,6 +5,7 @@
 }
 html {
   font-size: 10px;
+  font-family: "cairo", sans-serif;
   background: url(img/bcgrnd.png);
 }
 section {
