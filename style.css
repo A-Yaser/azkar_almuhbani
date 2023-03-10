@@ -69,3 +69,15 @@ footer {
   background-color: #5e1e1f;
   color: #fff;
 }
+
+@media (max-width: 44em) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (max-width: 34em) {
+  html {
+    font-size: 6px;
+  }
+}
